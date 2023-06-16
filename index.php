@@ -1,28 +1,25 @@
 <?php 
 
-    $stringOne = 'my email is ';
-    $stringTwo = 'mario123@thenetninja.co.uk ';
+$radius = 25;
+$pi = 3.14;
 
-    // echo $stringOne.$stringTwo;
+// echo $pi * $radius **2;
 
-    $name = "mario";
+// echo 2* (4+9) / 3;
 
-    // echo "hey my name is ".$name;
+// echo $radius ++;
+// echo $radius --;
 
-    // echo "Hey my name is $name";
-    
-    // echo "the ninja screamed \"whaaaa\"";
-    // echo 'the ninja screamed "whaaaa"'
+// $age = 20;
+// $age += 10;
+// $age -= 10;
+// $age *= 2;
+// echo $age;
 
-    // echo $name[1];
+// echo floor($pi);
+// echo ceil($pi);
+// echo pi();
 
-    // echo strlen($name);
-
-    // echo strtoupper($name);
-
-    // echo strtolower($name);
-    
-    echo str_replace("m", "w", $name);
 ?>
 
 <!DOCTYPE html>
