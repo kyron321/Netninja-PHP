@@ -1,10 +1,28 @@
 <?php 
-    //const
-    define("NAME", "Yoshi");
 
-    //let
-    $age = 30;
+    $stringOne = 'my email is ';
+    $stringTwo = 'mario123@thenetninja.co.uk ';
+
+    // echo $stringOne.$stringTwo;
+
+    $name = "mario";
+
+    // echo "hey my name is ".$name;
+
+    // echo "Hey my name is $name";
     
+    // echo "the ninja screamed \"whaaaa\"";
+    // echo 'the ninja screamed "whaaaa"'
+
+    // echo $name[1];
+
+    // echo strlen($name);
+
+    // echo strtoupper($name);
+
+    // echo strtolower($name);
+    
+    echo str_replace("m", "w", $name);
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +36,7 @@
 </head>
 
 <body>
-    <h1>User Profile Page</h1>
-    <div><?php echo NAME; ?></div>
-    <div><?php echo $age; ?></div>
+
 </body>
 
 </html>
